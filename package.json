@@ -1,23 +1,27 @@
 {
-  "name": "webpack-example",
-  "version": "1.0.0",
-  "description": "A basic webpack project",
-  "main": "index.js",
-  "scripts": {
+  "name":            "webpack-example",
+  "version":         "1.0.0",
+  "description":     "A basic webpack project",
+  "private":         true,
+  "scripts":         {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
+  "repository":      {
     "type": "git",
-    "url": "git+https://github.com/kwpeters/webpack-example.git"
+    "url":  "git+https://github.com/kwpeters/webpack-example.git"
   },
-  "keywords": [
+  "keywords":        [
     "webpack",
     "example"
   ],
-  "author": "Kevin Peters <kwpeters@gmail.com>",
-  "license": "MIT",
-  "bugs": {
+  "author":          "Kevin Peters <kwpeters@gmail.com>",
+  "license":         "MIT",
+  "bugs":            {
     "url": "https://github.com/kwpeters/webpack-example/issues"
   },
-  "homepage": "https://github.com/kwpeters/webpack-example#readme"
+  "homepage":        "https://github.com/kwpeters/webpack-example#readme",
+  "devDependencies": {
+    "webpack":     "^4.6.0",
+    "webpack-cli": "^2.1.2"
+  }
 }
